@@ -2,4 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	:root {
+		--light-blue: 231 250 254;
+	}
+}
 
+.breakfast-category-bg {
+	background: linear-gradient(
+		180deg,
+		rgba(112, 130, 70, 0) 0%,
+		rgba(112, 130, 70, 0.1) 100%
+	);
+}
+
+.vegan-category-bg {
+	background: linear-gradient(
+		180deg,
+		rgba(108, 198, 63, 0) 0%,
+		rgba(108, 198, 63, 0.1) 100%
+	);
+}
+
+.meat-category-bg {
+	background: linear-gradient(
+		180deg,
+		rgba(204, 38, 27, 0) 0%,
+		rgba(204, 38, 27, 0.1) 100%
+	);
+}
+
+.dessert-category-bg {
+	background: linear-gradient(
+		180deg,
+		rgba(240, 158, 0, 0) 0%,
+		rgba(240, 158, 0, 0.1) 100%
+	);
+}
+
+.light-category-bg {
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.05) 100%
+	);
+}
+
+.recipe-card-bg {
+	background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
